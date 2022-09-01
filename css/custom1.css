@@ -1,0 +1,77 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.4rem;
+	font-family: Helvetica,Arial,sans-serif;
+	line-height: 1.6;
+	margin-top: 0;
+	padding-bottom: 3em;
+	background-color: #add123;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+.navigation {
+	background: #333;
+	height: 40px;
+}
+.navigation ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.navigation li {
+	display: inline;
+
+	margin-right: 2em;
+}
+.navigation li a {
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+
+}
+.footer {
+	margin-top: 2.5em;
+    background-color: #333;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+}
+.footer p {
+	padding: 5px;
+	letter-spacing: 0.8rem;
+}
+
+/* Breakpoints */
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.header .grid_3,.header.grid_9, .content .main, .content .sidebar{float: none;}
+	.header{text-align: center;}
+	.header img{width: 50%; margin: auto;}
+	.header h1 {font-size: 1.8rem;text-align: center;}
+	.navigation li{margin-right: 4px;}
+	.navigation li a{padding: 10px 2px;}
+} 
+@media (min-width: 481px) and (max-width: 768px) {
+	.header .grid_3,.header.grid_9, .content .main, .content .sidebar{float: none;}
+	.header{text-align: center;}
+	.header img{width: 30%; margin: auto;}
+	.header h1 {font-size: 24px;font-size: 1.8rem;text-align: center;}
+	.navigation li{margin-right: 4px;}
+	.navigation li a{padding: 10px 2px;}
+
+}
+/*
+@media (min-width: 769px) and (max-width: 1200px) {
+	body{background-color: brown;}
+} 
+@media (min-width: 1200px){
+	body{background-color: purple;}
+} */
